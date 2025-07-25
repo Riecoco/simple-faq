@@ -42,7 +42,7 @@ h2 {
   font-size: var(--font-size-md);
   padding-top: 2rem;
 }
-article {
+.p-body {
   background-color: var(--ghost-white);
   padding-block: 3rem;
 }
@@ -50,7 +50,7 @@ header {
   text-align: center;
   padding: 2rem;
 }
-article section:first-of-type {
+.p-body section:first-of-type {
   border-bottom: 1px solid var(--light-silver);
 }
 section p:first-of-type {
@@ -70,7 +70,7 @@ a {
 }
 
 @media screen and (max-width: 640px) {
-  article {
+  .p-body {
     padding-inline: 2rem;
   }
   li {
@@ -79,7 +79,7 @@ a {
 }
 
 @media screen and (max-width: 1024px) {
-  article {
+  .p-body {
     padding-inline: 4rem;
   }
   li {
@@ -88,7 +88,7 @@ a {
 }
 
 @media screen and (min-width: 1280px) {
-  article {
+  .p-body {
     padding-inline: 20rem;
   }
   header {
