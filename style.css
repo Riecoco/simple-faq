@@ -48,7 +48,7 @@ h2 {
 }
 header {
   text-align: center;
-  padding: 2rem;
+  padding: 3.5rem;
 }
 .p-body section:first-of-type {
   border-bottom: 1px solid var(--light-silver);
@@ -60,10 +60,10 @@ section p:last-of-type {
   padding-top: 1rem;
   padding-bottom: 2rem;
 }
-  ul,
-  ol {
-    padding-left: 1.5em;
-  }
+ul,
+ol {
+  padding-left: 1.5em;
+}
 a {
   color: var(--blueberry);
   text-decoration: none;
