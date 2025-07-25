@@ -69,6 +69,7 @@ a {
   text-decoration: none;
 }
 
+/*Mobile*/
 @media screen and (max-width: 640px) {
   .p-body {
     padding-inline: 2rem;
@@ -78,7 +79,8 @@ a {
   }
 }
 
-@media screen and (max-width: 1024px) {
+/*Tablet*/
+@media screen and (min-width: 641px) and (max-width: 1279px) {
   .p-body {
     padding-inline: 4rem;
   }
@@ -87,6 +89,7 @@ a {
   }
 }
 
+/*Desktop/Laptop*/
 @media screen and (min-width: 1280px) {
   .p-body {
     padding-inline: 20rem;
