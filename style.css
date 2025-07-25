@@ -44,6 +44,7 @@ h2 {
 }
 article {
   background-color: var(--ghost-white);
+  padding-block: 3rem;
 }
 header {
   text-align: center;
@@ -52,7 +53,17 @@ header {
 article section:first-of-type {
   border-bottom: 1px solid var(--light-silver);
 }
-
+section p:first-of-type {
+  padding-block: 2rem;
+}
+section p:last-of-type {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+  ul,
+  ol {
+    padding-left: 1.5em;
+  }
 a {
   color: var(--blueberry);
   text-decoration: none;
@@ -61,18 +72,6 @@ a {
 @media screen and (max-width: 640px) {
   article {
     padding-inline: 2rem;
-    padding-block: 3rem;
-  }
-  section p:first-of-type {
-    padding-block: 2rem;
-  }
-  section p:last-of-type {
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-  }
-  ul,
-  ol {
-    padding-left: 1.5em;
   }
   li {
     padding-bottom: 0.5em;
@@ -82,18 +81,6 @@ a {
 @media screen and (max-width: 1024px) {
   article {
     padding-inline: 4rem;
-    padding-block: 3rem;
-  }
-  section p:first-of-type {
-    padding-block: 2rem;
-  }
-  section p:last-of-type {
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-  }
-  ul,
-  ol {
-    padding-left: 1.5em;
   }
   li {
     padding-bottom: 0.5em;
@@ -103,18 +90,9 @@ a {
 @media screen and (min-width: 1280px) {
   article {
     padding-inline: 20rem;
-    padding-block: 3rem;
   }
-  section p:first-of-type {
-    padding-block: 2rem;
-  }
-  section p:last-of-type {
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-  }
-  ul,
-  ol {
-    padding-left: 1.5em;
+  header {
+    padding: 5rem;
   }
   li {
     padding-bottom: 1em;
