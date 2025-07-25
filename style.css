@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+:root {
+  /*Fonts*/
+  --inter-font: "Inter", sans-serif;
+  --font-weight-smb: 600; /*semibold*/
+  --font-weight-reg: 400;
+  --font-size-lg: 2.25rem;
+  --font-size-md: 1.5rem;
+  --font-size-reg: 1rem;
+
+  /*Colors*/
+  --blueberry: #4e80ee;
+  --rich-black: #030616;
+  --light-silver: #d2d5da;
+  --ghost-white: #f8fafc;
+  --white: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: var(--inter-font);
+}
+h1,
+h2 {
+  font-weight: var(--font-weight-smb);
+}
+p,
+li,
+a {
+  font-weight: var(--font-weight-reg);
+  font-size: var(--font-size-reg);
+}
+h1 {
+  font-size: var(--font-size-lg);
+  padding-bottom: 1rem;
+}
+h2 {
+  font-size: var(--font-size-md);
+  padding-top: 2rem;
+}
+article {
+  background-color: var(--ghost-white);
+}
+header {
+  text-align: center;
+  padding: 2rem;
+}
+article section:first-of-type {
+  border-bottom: 1px solid var(--light-silver);
+}
+
+a {
+  color: var(--blueberry);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 640px) {
+  article {
+    padding-inline: 2rem;
+    padding-block: 3rem;
+  }
+  section p:first-of-type {
+    padding-block: 2rem;
+  }
+  section p:last-of-type {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  ul,
+  ol {
+    padding-left: 1.5em;
+  }
+  li {
+    padding-bottom: 0.5em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  article {
+    padding-inline: 4rem;
+    padding-block: 3rem;
+  }
+  section p:first-of-type {
+    padding-block: 2rem;
+  }
+  section p:last-of-type {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  ul,
+  ol {
+    padding-left: 1.5em;
+  }
+  li {
+    padding-bottom: 0.5em;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  article {
+    padding-inline: 20rem;
+    padding-block: 3rem;
+  }
+  section p:first-of-type {
+    padding-block: 2rem;
+  }
+  section p:last-of-type {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  ul,
+  ol {
+    padding-left: 1.5em;
+  }
+  li {
+    padding-bottom: 1em;
+  }
+}
