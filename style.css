@@ -48,6 +48,7 @@ h2 {
 }
 header {
   text-align: center;
+  padding: 4rem;
 }
 .p-body section:first-of-type {
   border-bottom: 1px solid var(--light-silver);
@@ -84,9 +85,6 @@ a {
 
 /*Mobile and Tablet*/
 @media screen and (max-width: 1279px) {
-  header {
-    padding: 4rem;
-  }
   li {
     padding-bottom: 0.5em;
   }
@@ -96,9 +94,6 @@ a {
 @media screen and (min-width: 1280px) {
   .p-body {
     padding-inline: 20rem;
-  }
-  header {
-    padding: 5rem;
   }
   li {
     padding-bottom: 1em;
